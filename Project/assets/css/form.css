@@ -1,0 +1,280 @@
+
+.header.header-not-fixed {
+    position: relative;
+}
+
+.form-login {
+    width: 324px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jordan-logo-login {
+    top: 15px;
+}
+
+.nav-nike-logo {
+    height: 44px;
+    width: 44px;
+}
+
+.text-content{
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    padding: 32px 0 26px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 16px;
+    border: 1px solid #e5e5e5;
+}
+
+#email {
+    padding: 20px;
+}
+#password {
+    padding: 20px;
+}
+
+#email::placeholder {
+    
+      font-size: 14px;
+      font-weight: 400;
+}
+#password::placeholder {
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-message {
+    display: flex;
+    margin-top: 5px;
+}
+
+
+.form-control-ps{
+    margin-top: 16px;
+}
+
+.check-forgetpw {
+    display: block;
+    position: relative;
+    margin-top: 22px;
+}
+
+.form-checkbox-signin {
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.form-checkbox {
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    border: 1px solid #000;
+    background-color: transparent;
+   
+}
+
+.form-label {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    color: #8d8d9c;
+    margin-left: 36px;
+    margin-top: 2px;
+}
+
+.form-check-link {
+    position: absolute;
+    color: #bcbcbc;
+    text-decoration: none;
+    right: 0;
+    margin-top: 2px;    
+    font-size: 1.2rem;
+}
+
+.text-question {
+    margin-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 24px;
+}
+
+.question-check {
+    color: #8d8d8d;
+}
+
+.question-link {
+    color: #8d8d8d;
+}
+
+.btn-signin {
+    margin-top: 32px;
+}
+
+.btn-signin-click {
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 3px;
+    
+}
+
+.signup-link {
+    margin-top: 22px;
+    padding-bottom: 24px;
+}
+
+.text-signup {
+    color: #8d8d8d;
+    font-size: 1.2rem;
+}
+
+.joinus-link {
+    color: #111111;
+}
+
+
+    /* forget password */
+
+.text-content-rs {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.text-title {
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
+.title-resetpw {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9c8d9c;
+}
+
+.btn-reset {
+    margin-top: 42px;
+}
+
+.btn-reset-click {
+
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+
+.reset-link {
+    margin-top: 46px;
+    padding-bottom: 65px;
+}
+
+
+  /* SIGN UP */
+
+.text-content-signup {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title-signup {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9c8d9c;
+}
+
+.text-date-form {
+    font-size: 1.2rem;
+    color: #8d8d8d;
+    margin: 10px 0 20px;
+}
+
+.form-group-region {
+    position: relative;
+}
+
+
+.region {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    position: relative;
+
+}
+
+.check-signup {
+    position: relative;
+    margin-top: 24px;
+}
+
+.form-signup-checkbox{
+    position: absolute;
+    top: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    height: 20px;
+    left: 0;
+    width: 20px;
+}
+
+
+.text-label {
+    position: relative;
+    padding-left: 24px;
+    top: -3px;
+    font-size: 1.2rem;
+    color: #8d8d8d;
+}
+
+
+.text-question-signup {
+    margin-top: 18px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 24px;
+}
+
+.signup-link {
+    margin-bottom: 36px;
+}
+
+.footer.footer-63 {
+    margin-top: -28px;
+}
+
+
+/* FORM VALIDATION */
+
+.form-group.invalid-error .form-message {
+    color: #f33a58;
+}
+
+.form-group.invalid-error .form-control {
+    border-color: #f33a58;
+}

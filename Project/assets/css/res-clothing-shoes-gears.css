@@ -1,0 +1,118 @@
+:root {
+
+}
+
+
+.show-on-tablet-mobile {
+    display: none;
+}
+
+@media  (max-width: 992px) 
+{
+
+    .header-clothing {
+        position: initial;
+        height: auto;
+    }
+
+    .content-clothing {
+        margin-top: 30px;
+    }
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .show-on-tablet-mobile {
+        display: block;
+    }
+
+    .filter-select-sort {
+        display: none;
+    }
+
+
+    .home-filter {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 36px;
+        margin-left: 0;
+    }
+
+   
+
+    .fixed-content-clothing span {
+        font-size: 2.4rem;
+        color: var(--text-color);   
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+  
+
+    .filter-select-hide {
+        position: absolute;
+        right: 0;
+        margin-right: 32px;
+        padding-right: 10px;
+    }
+
+    .category-product {
+        margin-left: 10px;
+    }
+
+    .show-on-tablet-mobile {
+        display: flex; 
+        width: 100%;    
+    }
+
+    .list-name-product {
+        position: relative;
+        display: flex;     
+        overflow-x: scroll;
+        padding-left: 10px !important;
+        padding-bottom: 14px;
+    }
+
+    .list-name-product::-webkit-scrollbar{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+    }
+
+      .list-name-product::-webkit-scrollbar-thumb {
+        background-color: #ccc; 
+        border-radius: 5px;       
+        border: 2px solid #ccc; 
+      }
+    
+    .item-name-product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .category-link {
+        padding: 0;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+
+    .mobile-2-layout {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .list-name-product::-webkit-scrollbar{
+        display: none;
+    }
+}

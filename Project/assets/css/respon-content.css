@@ -1,0 +1,280 @@
+
+:root {
+    --mt-130: 130px;
+}
+
+
+.showtag {
+    display: block !important;
+}
+/* tablet and mobile */
+
+@media (max-width: 992px) {
+    .jordan-review-header {
+        margin-top: 45px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .jordan-review-slider {
+        padding: 0 10px;
+    }
+
+    .content-jordan-featured {
+        padding: 0 10px;
+    }
+
+    .jordan-featured-slider {
+        height: auto !important;
+    }
+
+    .jordan-featured-footer {
+        margin-top: 55px;
+    }
+
+    .content-jordan-trending {
+        padding: 0 10px;
+        height: auto !important;;
+    }
+
+    .jordan-trending-slider {
+    }
+
+    .jordan-trending-img ,.jordan-trending-img2 {
+        height: 500px !important;
+    }
+
+    .content-jordan-picks {
+        margin-top: 0;
+    }
+
+    .content-jordan-trending {
+        height: 650px !important;
+    }
+
+    .jordan-picks-title {
+        margin-left: 10px;
+    }
+
+    .content-jordan-latest {
+        padding: 0 10px;
+    }
+
+    .jordan-latest-slider {
+        height: auto;
+    }
+
+    .jordan-latest-footer {
+        margin-top: 70px;
+    }
+
+    .content-jordan-men {
+        padding: 0 10px;
+    }
+
+    .jordan-men-slider {
+        height: auto;
+    }
+
+    .jordan-men-img {
+        height: auto;
+    }
+
+    .jordan-men-footer {
+        margin-top: 80px;
+    }
+
+    .content-jordan-dis {
+        padding: 0 10px;
+    }
+
+    .list-ul-footer-content {
+       
+    }
+
+    .jordan-dis-img {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .content-jordan-promote {
+        padding: 0 10px;
+    }
+
+    .product-promote-list {
+        padding: 0;
+    }
+}
+
+
+/*  mobile  */
+@media (max-width: 767px) {
+
+    .header {
+        position: initial;
+    }
+
+    .content {
+        position: relative;
+        top: -80px;
+    }
+
+    .jordan-review-slogan {
+        letter-spacing: 0;
+    }
+
+    .jordan-review-slider {
+        padding: 0 20px;
+    }
+
+    .content-jordan-featured {
+        margin-top: 40px;
+    }
+
+    .jordan-featured-title {
+        margin-left: 20px;
+    }
+
+    .jordan-featured-slider {
+        height: 250px;
+        padding: 0 20px;
+    }
+
+    .jordan-featured-footer {
+        margin-top: 80px;
+    }
+
+    .jordan-featured-name {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .jordan-featured-shoe {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .jordan-featured-desc{
+        text-align: left;
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .jordan-featured-btn {
+        position: absolute;
+        left: 0;
+        margin-left: 20px;
+    }
+
+    .content-jordan-trending {
+        margin-top: var(--mt-130);
+        padding: 0 20px;
+    }
+
+    .jordan-trending-img {
+        height: auto;
+    }
+
+    .jordan-trending-img2 {
+        height: auto;
+    }
+
+    .jordan-trending-slider {
+        height: auto;
+    }
+
+    .jordan-trending-item {
+        margin-top: 8px;
+    }
+
+    .jordan-trending-overlay {
+        left: 0;
+        margin-left: 20px;
+        width: 70%;
+    }
+
+    .jordan-picks-title {
+        margin-left: 20px;
+    }
+
+    .jordan-picks-item {
+    }
+
+    .jordan-latest-title {
+        margin-left: 20px;
+    }
+
+    .jordan-latest-img {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .jordan-latest-footer {
+        text-align: left;
+        width: 70%;
+    }
+
+    .jordan-latest-desc {
+        margin-left: 20px;
+    }
+
+    .jordan-latest-btn {
+        margin-left: 20px;
+    }
+
+    .jordan-men-title {
+        margin-left: 20px;
+    }
+
+    .jordan-men-img {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .jordan-latest-slider {
+        height: auto;
+    }
+
+    .jordan-men-slider {
+        height: auto;
+    }
+
+    .jordan-men-footer {
+        margin-top: 80px;
+    }
+
+    .jordan-men-footer {
+        text-align: left;
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .jordan-dis-title {
+        margin-left: 20px;
+    }
+
+    .jordan-dis-img {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .jordan-dis-link {
+        position: relative;
+        top: -40px;
+        margin-left: 20px;
+    }
+
+
+    .product {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    
+    .product-promote-list {
+        margin-bottom: 20px;
+        display: none;
+    }
+}
