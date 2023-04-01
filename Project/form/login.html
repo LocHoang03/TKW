@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,14 +19,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/Grid.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/form.css" />
-    <link rel="stylesheet" href="./assets/css/header-footer-res.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/Grid.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/form.css" />
+    <link rel="stylesheet" href="../assets/css/header-footer-res.css" />
     <link
       rel="stylesheet"
-      href="./assets/font/fontawesome-free-6.2.0-web/css/all.min.css"
+      href="../assets/font/fontawesome-free-6.2.0-web/css/all.min.css"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -38,7 +39,7 @@
 
   <body>
     <div class="main">
-      <div class="header header-not-fixed">
+      <div class="header">
         <!-- Header Register -->
         <div class="header-register-container">
           <div class="grid wide">
@@ -70,7 +71,7 @@
                   <a href="signup.html" class="register-item-link"> Join Us </a>
                 </li>
                 <li class="register-item">
-                  <a href="signup.html" class="register-item-link"> Sign In </a>
+                  <a href="login.html" class="register-item-link"> Sign In </a>
                 </li>
               </ul>
             </div>
@@ -84,7 +85,7 @@
           <div class="grid wide">
             <div class="header-nav">
               <div class="header-nav-logo">
-                <a class="nav-logo-link" href="index.html">
+                <a class="nav-logo-link" href="../viewPage/index.html">
                   <svg
                     class="nav-nike-logo"
                     focusable="false"
@@ -215,17 +216,6 @@
         </div>
       </div>
 
-      <!-- <div class="promote">
-            <p class="promote-sale">
-                Sale Up to 40%
-            </p>
-            <a href="" class="promote-marks">
-                Shop All Our New Markdowns
-            </a>
-        </div> -->
-
-      <!-- CONTENT -->
-
       <div class="content-login content">
         <div class="content-jordan-review-container">
           <div class="grid wide">
@@ -251,37 +241,73 @@
                   </svg>
                 </div>
                 <div class="text-content">
-                  <p class="text-content-rs">RESET PASSWORD</p>
-                </div>
-
-                <div class="text-title">
-                  <p class="title-resetpw">
-                    Enter your email to receive instructions on how to reset
-                    your password.
+                  <p class="text-content-slogan">
+                    YOUR ACCOUNT FOR <br />
+                    EVERYTHING NIKE
                   </p>
                 </div>
 
-              <form action="" id="form-1">
-                <div class="form-group">
+                <form action="" method="POST" id="form-1">
+                  <div class="form-group">
                     <input
                       id="email"
                       name="email"
-                      type="text"
+                      type="email"
                       placeholder="Email address"
                       class="form-control"
                     />
                     <span class="form-message"></span>
                   </div>
-              </form>
 
-                <div class="btn-reset">
-                  <button class="btn-reset-click">RESET</button>
+                  <div class="form-group">
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      placeholder="Password"
+                      class="form-control form-control-ps"
+                    />
+                    <span class="form-message"></span>
+                  </div>
+                </form>
+
+                <div class="check-forgetpw">
+                  <div class="form-checkbox-signin">
+                    <input
+                      id="check"
+                      name="check"
+                      type="checkbox"
+                      class="form-checkbox"
+                    />
+                    <label for="check" class="form-label"
+                      >Keep me signed in</label
+                    >
+                  </div>
+                  <div>
+                    <a href="forgetpw.html" class="form-check-link"
+                      >Forgotten your password ?</a
+                    >
+                  </div>
                 </div>
 
-                <div class="reset-link">
+                <div class="text-question">
+                  <p class="question-check">
+                    By logging in, you agree to Nike's
+                    <a class="question-link" href="">Privary Policy</a> and
+                    <a class="question-link" href="">Terms of Use</a>
+                  </p>
+                </div>
+
+                <div class="btn-signin">
+                  <button id="form-login" class="btn-signin-click">
+                    SIGN IN
+                  </button>
+                </div>
+
+                <div class="signup-link">
                   <p class="text-signup">
-                    Or return to
-                    <a class="joinus-link" href="login.html">Log in</a>
+                    Not a Member?
+                    <a class="joinus-link" href="signup.html">Join Us</a>
                   </p>
                 </div>
               </div>
@@ -291,7 +317,7 @@
       </div>
 
       <!-- FOOTER -->
-      <div class="footer">
+      <div class="footer footer-mt24">
         <div class="grid wide">
           <div class="footer-head">
             <div class="footer-about">
@@ -314,7 +340,7 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 padding-0 ">
+                <div class="col-lg-4 col-md-4 col-sm-4 padding-0">
                   <div class="footer-item">
                     <ul class="footer-list">
                       <li class="footer-list-item">
@@ -473,7 +499,6 @@
         </div>
       </div>
     </div>
-    
 
     <div class="include-overlay">
       <div class="overlay">
@@ -482,29 +507,29 @@
         </div>
         <ul class="list-product">
           <li class="list-item-product">
-            <a href="index.html" class="link-item-product"
+            <a href="../viewPage/index.html" class="link-item-product"
               ><span>Men</span> <i class="fa-solid fa-angle-right icon-list"></i
             ></a>
           </li>
           <li class="list-item-product">
-            <a href="clothing.html" class="link-item-product">
+            <a href="../viewPage/clothing.html" class="link-item-product">
               <span>Clothing</span>
               <i class="fa-solid fa-angle-right icon-list"></i
             ></a>
           </li>
           <li class="list-item-product">
-            <a href="shoes.html" class="link-item-product"
+            <a href="../viewPage/shoes.html" class="link-item-product"
               ><span>Shoe</span>
               <i class="fa-solid fa-angle-right icon-list"></i
             ></a>
           </li>
           <li class="list-item-product">
-            <a href="gear.html" class="link-item-product">
+            <a href="../viewPage/gear.html" class="link-item-product">
               <span>Gear</span> <i class="fa-solid fa-angle-right icon-list"></i
             ></a>
           </li>
           <li class="list-item-product">
-            <a href="index.html" class="link-item-product">
+            <a href="../viewPage/index.html" class="link-item-product">
               <span>Customise</span>
               <i class="fa-solid fa-angle-right icon-list"></i
             ></a>
@@ -548,7 +573,7 @@
 
             <li class="register-item-overlay">
               <button class="btn-item-link-overlay-2">
-                <a href="signup.html" class="register-item-link-overlay">
+                <a href="login.html" class="register-item-link-overlay">
                   <span>Sign In</span>
                 </a>
               </button>
@@ -559,7 +584,7 @@
         <div class="container-qc">
           <ul class="list-item-qc">
             <li class="item-qc">
-              <a href="signup.html" class="item-link-qc">
+              <a href="" class="item-link-qc">
                 <i
                   class="nav-cart-icon fa-solid fa-cart-shopping icon-link-qc"
                 ></i>
@@ -584,10 +609,9 @@
         </div>
       </div>
     </div>
-    
 
-    <script src="./handleoverlay.js"></script>
-    <script src="errorform.js"></script>
+    <script src="../js/handleoverlay.js"></script>
+    <script src="../js/errorform.js"></script>
 
     <!-- <script>
       const showInput = document.querySelector('.search-link')
@@ -615,12 +639,9 @@
         errorNotify: ".form-message",
         rules: [
           ErrorMessage.isEmail("#email"),
-          ErrorMessage.isPassword("#password"),
-          ErrorMessage.isFirstName("#firstname"),
-          ErrorMessage.isLastName("#lastname"),
+          ErrorMessage.isPassword("#password", 6),
         ],
       });
     </script>
-    </div>
   </body>
 </html>

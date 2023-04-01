@@ -41,7 +41,7 @@
 
    
 
-    .fixed-content-clothing span {
+    .fixed-content-title span {
         font-size: 2.4rem;
         color: var(--text-color);   
         display: block;
@@ -103,6 +103,10 @@
         font-size: 18px;
         font-weight: 500;
         
+    }
+
+    .category-link-gears {
+        width: 250px;
     }
 
     .mobile-2-layout {

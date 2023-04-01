@@ -1,3 +1,8 @@
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 .header.header-not-fixed {
     position: relative;
@@ -47,6 +52,13 @@
     padding: 20px;
 }
 
+#firstname {
+    padding: 20px;
+}
+#lastname {
+    padding: 20px;
+}
+
 #email::placeholder {
     
       font-size: 14px;
@@ -57,6 +69,25 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+#firstname::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    pa
+}
+
+#lastname::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#dateofbirth {
+    font-size: 14px;
+    font-weight: 400;
+    color: #848b7d;
+    padding: 20px;
+}
+
 
 .form-message {
     display: flex;
@@ -225,6 +256,10 @@
     border: 1px solid #e5e5e5;
     text-align: left;
     position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: #848b7d;
+    padding: 0 16px;
 
 }
 
