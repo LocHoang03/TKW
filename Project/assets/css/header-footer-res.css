@@ -4,6 +4,10 @@
     --width-dash: 20px;
 }
 
+.search-mobile {
+    display: none;
+}
+
 
 @media (max-width: 992px) {
     html,
@@ -54,17 +58,41 @@
         cursor: auto;
     }
 
-    .icon-close-overlay {
+    .btn-close-overlay {
         padding: 6px;
         cursor: pointer;
-        
+        width: auto;
+        height: auto;
+        border: none;
+        position: relative;
+        width: 32px;
+        height: 32px;
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        margin-right: 27px;
+        background: none;
     }
 
-    .icon-close-overlay:hover {
+    .btn-close-overlay:hover {
         background-color: #e5e5e5;
-        border-radius: 60%;
+        border-radius: 50%;
 
     }
+
+    .icon-close-overlay {    
+        position: absolute;
+        font-size: 30px;
+    }
+
+
+    /* .icon-close-overlay:hover {
+        background-color: #e5e5e5;
+        border-radius: 50%;
+
+    } */
 
     .nav-icon-dash {
         display: block;
@@ -109,14 +137,7 @@
     .close-overlay {
         position: relative;
         margin-top: 20px;
-        padding-bottom: 10px;
-    }
-    
-    .icon-close-overlay {
-        position: absolute;
-        font-size: 30px;
-        margin-right: 34px;
-        right: 0;
+        padding-bottom: 30px;
     }
     
     
@@ -447,6 +468,7 @@
 
     .nav-icon-dash {
         margin-right: 40px;
+        z-index: 3;
         
     }
     .overlay {

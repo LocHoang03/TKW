@@ -42,10 +42,7 @@ toggleTitle2.addEventListener("click", () => {
     showTitle2.classList.toggle("show-item-children-2");
 })
 
-const match = window.matchMedia("(max-width: 992px)");
 
-      function myFunction(x) {
-        if (match.matches) {
             showMobile.addEventListener("click", (e) => { 
                 e.preventDefault();
                 searchMobile.style.display = "inherit";
@@ -53,13 +50,7 @@ const match = window.matchMedia("(max-width: 992px)");
             cancel.addEventListener("click", () => {
                 searchMobile.style.display = "none"
             })
-        } else {
-          showInput.classList.add("search-link");
-          showInput.classList.remove("search-mobile-show");
-        }
-      }
 
-      myFunction(match); // Call listener function at run time
 
 
 
