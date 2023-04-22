@@ -536,11 +536,15 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: 2rem;
+    padding-left: 6px;
 }
 
+.list-ul-footer-content>div {
+    display: flex;
+    justify-content: space-around;
+}
 
 .content-jordan-promote{
-    width: 900px;
     margin: 0 auto;
 }
 
@@ -555,6 +559,7 @@
 }
 .product-promote-list{
     list-style: none;
+    padding-left: 0;
 }
 .product-promote-item{
     margin-bottom: 12px;

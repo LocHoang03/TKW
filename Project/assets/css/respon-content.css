@@ -1,8 +1,6 @@
-
 :root {
     --mt-130: 130px;
 }
-
 
 .showtag {
     display: block !important;
@@ -35,13 +33,14 @@
 
     .content-jordan-trending {
         padding: 0 10px;
-        height: auto !important;;
+        height: auto !important;
     }
 
     .jordan-trending-slider {
     }
 
-    .jordan-trending-img ,.jordan-trending-img2 {
+    .jordan-trending-img,
+    .jordan-trending-img2 {
         height: 500px !important;
     }
 
@@ -90,7 +89,6 @@
     }
 
     .list-ul-footer-content {
-       
     }
 
     .jordan-dis-img {
@@ -107,10 +105,8 @@
     }
 }
 
-
 /*  mobile  */
-@media (max-width: 767px) {
-
+@media (max-width: 768px) {
     .header {
         position: initial;
     }
@@ -157,7 +153,7 @@
         margin-left: 20px;
     }
 
-    .jordan-featured-desc{
+    .jordan-featured-desc {
         text-align: left;
         width: 80%;
         margin-left: 20px;
@@ -265,16 +261,24 @@
         position: relative;
         top: -40px;
         margin-left: 20px;
+        padding-left: 0;
     }
-
 
     .product {
         margin-top: 0;
         margin-left: 20px;
     }
-    
+
     .product-promote-list {
         margin-bottom: 20px;
         display: none;
+    }
+
+    .product-promote-name {
+        cursor: pointer;
+    }
+
+    .list-ul-footer-content > div {
+        justify-content: initial;
     }
 }
